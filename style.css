@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* text-align: center; */
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 18px 0px; */
+    background: linear-gradient(45deg,white,gray);
+    overflow: hidden;
+}
+
+#opponent-choice{
+    width: 240px;
+    height: 240px;
+    /* background-color: aqua; */
+    margin: 10px 0px;
+    border-radius: 50%;    
+    /* box-shadow: 0px 0px 16px rgba(255, 255, 255, 0.5); */
+}
+
+#your-choice{
+    width: 240px;
+    height: 240px;
+    /* background-color: yellow; */
+    margin: 10px 0px;
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 16px rgba(255, 255, 255, 0.5); */
+}
+
+#choices{
+    width: 240px;
+    height: 80px;
+    /* background-color: green; */
+    margin: 10px 0px;
+}
+
+#choices img{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
